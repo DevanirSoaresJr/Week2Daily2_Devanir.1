@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_option"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnSavePref"
+        android:text="@string/save_activity"
+        android:onClick="doActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvQuery"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnQuery"
+        android:text="@string/query_activity"
+        android:onClick="doActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSavePref"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:text="@string/clear"
+        android:onClick="doActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnQuery"
+        android:padding="20dp"/>
+
+   </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

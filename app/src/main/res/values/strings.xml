@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week2Daily3</string>
+    <string name="select_option" />
+    <string name="save_activity">Save</string>
+    <string name="query_activity">Query</string>
+    <string name="clear">Clear</string>
+    <color name="white">#FFFFFF</color>
+</resources>
